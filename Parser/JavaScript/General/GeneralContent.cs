@@ -15,8 +15,8 @@ namespace Sharpway.JavaScript {
             {"Page<Title>", "sharpway.handlePageTitle"},
             {"Page<Version>", "sharpway.handlePageVersion"},
             {"Page<Icon>", @"sharpway.handlePageIcon"},
-            {"Render<html>", "document.body.innerHTML += "},
             {"Append", "sharpway.domAppend"},
+            {"Render<html>", "document.body.innerHTML += "},
             /* Semantics Indicators */
             {"end", "}"},
             {"def", "function"},

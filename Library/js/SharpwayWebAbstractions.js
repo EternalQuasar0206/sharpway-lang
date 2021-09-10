@@ -30,6 +30,12 @@ class sharpway {
         document.querySelector(target).innerHTML += render;
     }
 
-    //================================================================
+    //Date Time Operations
+
+    static date = {
+        now = () => Date.now(),
+        parse = (dateString) => Date.parse(dateString),
+        
+    }
 
 }
