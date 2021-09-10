@@ -1,4 +1,6 @@
 class sharpway {
+    //General Operations (Default)
+
     static handlePageIcon(icon) {
         let link = document.querySelector(`link[rel~='icon']`);
         if (!link) {
